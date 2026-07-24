@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title">
+<title>Lloyd Digital Studio</title>
+<defs>
+  <linearGradient id="g" x1="26" y1="16" x2="204" y2="206" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#9A84FF"/><stop offset=".52" stop-color="#6F5CFF"/><stop offset="1" stop-color="#4838EF"/>
+  </linearGradient>
+  <radialGradient id="h" cx="0" cy="0" r="1" gradientTransform="translate(74 48) rotate(39) scale(58)">
+    <stop stop-color="white" stop-opacity=".95"/><stop offset=".18" stop-color="white" stop-opacity=".22"/><stop offset="1" stop-color="white" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="18" y="18" width="184" height="184" rx="54" fill="url(#g)"/>
+<rect x="18" y="18" width="184" height="184" rx="54" fill="url(#h)"/>
+<path d="M110 54c6 33 24 50 56 56-32 6-50 24-56 56-6-32-24-50-56-56 32-6 50-23 56-56Z" fill="white"/>
+<text x="238" y="105" fill="#F7F7FB" font-family="Inter,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-2">Lloyd</text>
+<text x="240" y="163" fill="#AFA6FF" font-family="Inter,Arial,sans-serif" font-size="44" font-weight="650">Digital Studio</text>
+</svg>

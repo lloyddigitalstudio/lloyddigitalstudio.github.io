@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+<title>Lloyd Digital Studio</title>
+<defs>
+  <linearGradient id="g" x1="28" y1="18" x2="226" y2="238" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#9A84FF"/>
+    <stop offset=".52" stop-color="#6F5CFF"/>
+    <stop offset="1" stop-color="#4838EF"/>
+  </linearGradient>
+  <radialGradient id="h" cx="0" cy="0" r="1" gradientTransform="translate(79 52) rotate(39) scale(64)">
+    <stop stop-color="white" stop-opacity=".95"/>
+    <stop offset=".18" stop-color="white" stop-opacity=".22"/>
+    <stop offset="1" stop-color="white" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="s" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#5B45FF" flood-opacity=".38"/>
+  </filter>
+</defs>
+<rect x="22" y="22" width="212" height="212" rx="62" fill="url(#g)" filter="url(#s)"/>
+<rect x="22" y="22" width="212" height="212" rx="62" fill="url(#h)"/>
+<path d="M128 61c7 39 28 60 67 67-39 7-60 28-67 67-7-39-28-60-67-67 39-7 60-28 67-67Z" fill="white"/>
+</svg>
