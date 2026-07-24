@@ -1,32 +1,21 @@
-# Lloyd Digital Studio — site officiel
+# Lloyd Digital Studio — version premium corrigée
 
-Version finale prête pour GitHub Pages.
+Cette version reprend le design premium de la V3 et intègre les corrections validées :
+
+- identité visuelle Lloyd Digital Studio conservée ;
+- mention Android & iOS, sans « iOS à terme » ;
+- logo officiel ORYA utilisé dans le catalogue et sur sa page ;
+- une seule entrée « Confidentialité » ;
+- aucune mention « France » isolée dans le pied de page ;
+- politique de confidentialité présentée comme une page Lloyd Digital Studio applicable à ORYA ;
+- support rédigé de manière compatible Android et iOS.
 
 ## Mise en ligne
-1. Ouvrir le dépôt `lloyddigitalstudio.github.io`.
-2. Supprimer ou remplacer les anciens fichiers.
-3. Téléverser tous les fichiers contenus dans ce dossier à la racine du dépôt.
-4. Valider avec **Commit changes**.
-5. Attendre une à trois minutes puis actualiser le site.
 
-## Pages
-- `index.html` : accueil
-- `studio.html` : présentation du studio
-- `apps.html` : catalogue
-- `orya.html` : fiche ORYA
-- `contact.html` : contact
-- `support.html` : support
-- `privacy.html` : confidentialité ORYA
-- `terms.html` : conditions ORYA
+Téléverser tous les fichiers à la racine du dépôt :
 
-## Éléments techniques
-- Favicons et icônes mobiles
-- Logo SVG
-- Open Graph
-- Manifest
-- Sitemap
-- Robots.txt
-- Responsive mobile/tablette/ordinateur
+`lloyddigitalstudio.github.io`
 
-URL de confidentialité à utiliser dans Google Play :
+URL de confidentialité Google Play :
+
 https://lloyddigitalstudio.github.io/privacy.html
