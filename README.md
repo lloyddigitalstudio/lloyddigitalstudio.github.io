@@ -1,21 +1,15 @@
-# Lloyd Digital Studio — version premium corrigée
+# Lloyd Digital Studio — Rebuild V2
 
-Cette version reprend le design premium de la V3 et intègre les corrections validées :
+Version entièrement reconstruite.
 
-- identité visuelle Lloyd Digital Studio conservée ;
-- mention Android & iOS, sans « iOS à terme » ;
-- logo officiel ORYA utilisé dans le catalogue et sur sa page ;
-- une seule entrée « Confidentialité » ;
-- aucune mention « France » isolée dans le pied de page ;
-- politique de confidentialité présentée comme une page Lloyd Digital Studio applicable à ORYA ;
-- support rédigé de manière compatible Android et iOS.
+Corrections principales :
+- logo Lloyd Digital Studio visible dans le header et le footer ;
+- typographie et espacements corrigés ;
+- footer restructuré avec copyright correctement aligné ;
+- capture mobile complète d’ORYA intégrée ;
+- logo officiel ORYA utilisé ;
+- politique de confidentialité générale à toutes les applications ;
+- conditions d’utilisation générales à toutes les applications ;
+- Android & iOS sans mention « à terme ».
 
-## Mise en ligne
-
-Téléverser tous les fichiers à la racine du dépôt :
-
-`lloyddigitalstudio.github.io`
-
-URL de confidentialité Google Play :
-
-https://lloyddigitalstudio.github.io/privacy.html
+Téléverser tous les fichiers à la racine du dépôt GitHub Pages.

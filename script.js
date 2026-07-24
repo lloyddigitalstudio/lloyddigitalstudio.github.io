@@ -1,18 +1,5 @@
-
-const year = document.querySelector('[data-year]');
-if (year) year.textContent = new Date().getFullYear();
-
-const items = document.querySelectorAll('.reveal');
-if ('IntersectionObserver' in window) {
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12 });
-  items.forEach(item => observer.observe(item));
-} else {
-  items.forEach(item => item.classList.add('visible'));
-}
+document.querySelectorAll('[data-year]').forEach(e=>e.textContent=new Date().getFullYear());
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
+const b=document.querySelector('.menu-button'),n=document.querySelector('.nav-links');
+if(b&&n)b.addEventListener('click',()=>n.classList.toggle('open'));
