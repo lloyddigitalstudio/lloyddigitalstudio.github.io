@@ -13,3 +13,5 @@ Corrections principales :
 - Android & iOS sans mention « à terme ».
 
 Téléverser tous les fichiers à la racine du dépôt GitHub Pages.
+
+- capture ORYA remplacée par une version propre, sans opérateur, heure, réseau ni batterie.
