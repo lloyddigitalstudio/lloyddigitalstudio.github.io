@@ -1,17 +1,21 @@
-# Lloyd Digital Studio — Rebuild V2
+# Lloyd Digital Studio — Version finale « APRÈS »
 
-Version entièrement reconstruite.
+Cette version reprend exactement la direction visuelle validée :
 
-Corrections principales :
-- logo Lloyd Digital Studio visible dans le header et le footer ;
-- typographie et espacements corrigés ;
-- footer restructuré avec copyright correctement aligné ;
-- capture mobile complète d’ORYA intégrée ;
-- logo officiel ORYA utilisé ;
-- politique de confidentialité générale à toutes les applications ;
-- conditions d’utilisation générales à toutes les applications ;
-- Android & iOS sans mention « à terme ».
+- étoile blanche indépendante, lumineuse et animée ;
+- univers cosmique violet profond ;
+- halo rayonnant et anneaux subtils ;
+- logo Lloyd intégré dans le header et le hero ;
+- couleurs premium violet, bleu et blanc ;
+- cartes et boutons cohérents avec le rendu « APRÈS » ;
+- capture mobile propre d’ORYA ;
+- pages générales de confidentialité et conditions ;
+- responsive ordinateur, tablette et mobile.
 
-Téléverser tous les fichiers à la racine du dépôt GitHub Pages.
+## Mise en ligne GitHub Pages
 
-- capture ORYA remplacée par une version propre, sans opérateur, heure, réseau ni batterie.
+1. Décompresser le ZIP.
+2. Ouvrir le dépôt `lloyddigitalstudio.github.io`.
+3. Choisir **Add file → Upload files**.
+4. Téléverser tous les fichiers à la racine.
+5. Valider avec **Commit changes**.
