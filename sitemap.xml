@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://lloyddigitalstudio.github.io/</loc><lastmod>2026-07-24</lastmod></url>
-  <url><loc>https://lloyddigitalstudio.github.io/studio.html</loc><lastmod>2026-07-24</lastmod></url>
-  <url><loc>https://lloyddigitalstudio.github.io/apps.html</loc><lastmod>2026-07-24</lastmod></url>
-  <url><loc>https://lloyddigitalstudio.github.io/orya.html</loc><lastmod>2026-07-24</lastmod></url>
-  <url><loc>https://lloyddigitalstudio.github.io/contact.html</loc><lastmod>2026-07-24</lastmod></url>
-  <url><loc>https://lloyddigitalstudio.github.io/support.html</loc><lastmod>2026-07-24</lastmod></url>
-  <url><loc>https://lloyddigitalstudio.github.io/privacy.html</loc><lastmod>2026-07-24</lastmod></url>
-  <url><loc>https://lloyddigitalstudio.github.io/terms.html</loc><lastmod>2026-07-24</lastmod></url>
+
+  <url>
+    <loc>https://lloyddigitalstudio.github.io/</loc>
+    <lastmod>2026-08-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://lloyddigitalstudio.github.io/studio.html</loc>
+    <lastmod>2026-08-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://lloyddigitalstudio.github.io/apps.html</loc>
+    <lastmod>2026-08-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://lloyddigitalstudio.github.io/orya.html</loc>
+    <lastmod>2026-08-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://lloyddigitalstudio.github.io/spinova.html</loc>
+    <lastmod>2026-08-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://lloyddigitalstudio.github.io/contact.html</loc>
+    <lastmod>2026-08-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://lloyddigitalstudio.github.io/support.html</loc>
+    <lastmod>2026-08-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://lloyddigitalstudio.github.io/privacy.html</loc>
+    <lastmod>2026-08-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://lloyddigitalstudio.github.io/terms.html</loc>
+    <lastmod>2026-08-11</lastmod>
+  </url>
+
 </urlset>
