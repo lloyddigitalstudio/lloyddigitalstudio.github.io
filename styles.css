@@ -171,3 +171,221 @@ body{
 @media(prefers-reduced-motion:reduce){
   .hero-star-logo{animation:none}
 }
+
+/* ==================================================
+   SOFTWARE — KDP STUDIO / LEAD ENGINE
+   ================================================== */
+
+.software-section{
+  padding-top:60px;
+}
+
+.software-product{
+  margin-bottom:70px;
+  border:1px solid rgba(255,255,255,.10);
+  border-radius:32px;
+  overflow:hidden;
+
+  background:
+    radial-gradient(circle at 10% 0%,rgba(105,63,255,.12),transparent 30%),
+    linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,.018));
+
+  box-shadow:0 30px 90px rgba(0,0,0,.32);
+
+  transition:
+    transform .35s ease,
+    border-color .35s ease,
+    box-shadow .35s ease;
+}
+
+.software-product:hover{
+  transform:translateY(-5px);
+  border-color:rgba(136,101,255,.34);
+  box-shadow:0 40px 110px rgba(0,0,0,.42);
+}
+
+
+/* VISUEL */
+
+.software-visual{
+  position:relative;
+  overflow:hidden;
+  background:#05060d;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.software-visual img{
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:16 / 9;
+  object-fit:cover;
+
+  transition:transform .6s ease;
+}
+
+.software-product:hover .software-visual img{
+  transform:scale(1.012);
+}
+
+
+/* BADGE */
+
+.software-status{
+  position:absolute;
+  top:22px;
+  right:22px;
+
+  padding:9px 14px;
+
+  border:1px solid rgba(161,140,255,.32);
+  border-radius:999px;
+
+  background:rgba(7,8,14,.82);
+  backdrop-filter:blur(14px);
+
+  color:#d8d0ff;
+
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:.12em;
+
+  box-shadow:0 10px 30px rgba(0,0,0,.28);
+}
+
+
+/* CONTENU */
+
+.software-content{
+  display:grid;
+  grid-template-columns:1.35fr .65fr;
+  gap:60px;
+
+  padding:34px 38px 38px;
+
+  align-items:end;
+}
+
+.software-label{
+  color:var(--gold);
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  font-weight:900;
+}
+
+.software-content h2{
+  font-size:42px;
+  line-height:1;
+  margin:10px 0 15px;
+}
+
+.software-content p{
+  margin:0;
+  max-width:700px;
+
+  color:var(--muted);
+  font-size:17px;
+}
+
+.software-meta{
+  display:flex;
+  flex-direction:column;
+  gap:7px;
+
+  padding-left:26px;
+
+  border-left:1px solid rgba(255,255,255,.10);
+}
+
+.software-meta strong{
+  color:#d2cbff;
+  font-size:14px;
+}
+
+.software-meta span{
+  color:var(--muted);
+  font-size:13px;
+}
+
+
+/* APPROCHE */
+
+.software-approach{
+  padding-top:40px;
+  padding-bottom:110px;
+}
+
+.software-approach h2{
+  font-size:clamp(38px,5vw,58px);
+  line-height:1.03;
+
+  margin:14px 0 20px;
+}
+
+.software-approach p{
+  max-width:760px;
+
+  color:var(--muted);
+  font-size:18px;
+}
+
+
+/* TABLETTE */
+
+@media(max-width:900px){
+
+  .software-content{
+    grid-template-columns:1fr;
+    gap:25px;
+  }
+
+  .software-meta{
+    padding-left:0;
+    padding-top:20px;
+
+    border-left:0;
+    border-top:1px solid rgba(255,255,255,.10);
+  }
+
+}
+
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+  .software-section{
+    padding-top:35px;
+  }
+
+  .software-product{
+    margin-bottom:40px;
+    border-radius:22px;
+  }
+
+  .software-status{
+    top:12px;
+    right:12px;
+
+    padding:7px 10px;
+    font-size:9px;
+  }
+
+  .software-content{
+    padding:25px 22px 28px;
+  }
+
+  .software-content h2{
+    font-size:34px;
+  }
+
+  .software-content p{
+    font-size:16px;
+  }
+
+  .software-approach{
+    padding-bottom:80px;
+  }
+
+}
