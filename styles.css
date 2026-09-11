@@ -1024,3 +1024,40 @@ body{
     padding:28px 24px 32px;
   }
 }
+/* ==================================================
+   ACCUEIL — HERO MOBILE UNIQUEMENT
+   ================================================== */
+
+@media (max-width: 700px){
+
+  .hero-grid.after{
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .hero-copy.after{
+    width: 100%;
+    max-width: none;
+  }
+
+  .hero-copy.after h1{
+    font-size: clamp(46px, 13vw, 64px);
+    line-height: .95;
+    max-width: 100%;
+  }
+
+  .hero-copy.after p{
+    max-width: 100%;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .hero-visual.after{
+    width: 100%;
+    max-width: 420px;
+    min-height: 380px;
+    margin: 0 auto;
+    justify-self: center;
+  }
+
+}
