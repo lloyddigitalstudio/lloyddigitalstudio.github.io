@@ -34,6 +34,19 @@
       <a href="software.html">Logiciels</a>
       <a href="support.html">Support</a>
       <a href="privacy.html">Confidentialité</a>
+
+      <!-- AMBIANCE SONORE -->
+      <button
+        class="sound-toggle"
+        id="soundToggle"
+        type="button"
+        aria-label="Désactiver l'ambiance sonore"
+        aria-pressed="true"
+      >
+        <span class="sound-icon" aria-hidden="true">♫</span>
+        <span class="sound-label">SON ON</span>
+      </button>
+
       <a href="contact.html" class="contact-button">Contact</a>
     </nav>
 
@@ -393,5 +406,12 @@
 
 <script src="script.js"></script>
 
+<audio
+  id="ambientAudio"
+  src="performads-ambient.mp3"
+  loop
+  preload="auto"
+></audio>
+  
 </body>
 </html>
