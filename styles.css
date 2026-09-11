@@ -672,25 +672,6 @@ body{
   order:1;
 }
 
-/* Carte Lead Engine : plus de largeur pour le visuel */
-.studio-case-card:has(.lead-engine-visual){
-    grid-template-columns:1.45fr .75fr;
-}
-
-.lead-engine-visual{
-    overflow:hidden;
-    background:#05060d;
-}
-
-.lead-engine-visual img{
-    display:block;
-    width:100%;
-    height:100%;
-    min-height:470px;
-    object-fit:cover;
-    object-position:center;
-}
-
 .studio-case-visual{
   min-height:100%;
   background:#05060d;
@@ -706,21 +687,36 @@ body{
     object-fit:cover;
 }
 
-/* Cadrage spécifique Lead Engine */
-.lead-engine-visual{
-    overflow:hidden;
-    background:#05060d;
-    display:flex;
-    align-items:center;
+/* ===== STUDIO — LEAD ENGINE FORMAT LARGE ===== */
+
+.studio-lead-card{
+    display:block;
 }
 
-.lead-engine-visual img{
+.studio-lead-card .lead-engine-visual{
+    width:100%;
+    min-height:0;
+    overflow:hidden;
+    background:#05060d;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.studio-lead-card .lead-engine-visual img{
+    display:block;
     width:100%;
     height:auto;
     min-height:0;
     aspect-ratio:16 / 9;
     object-fit:cover;
     object-position:center;
+}
+
+.studio-lead-card .studio-case-content{
+    padding:38px 42px 42px;
+}
+
+.studio-lead-card .studio-case-content p{
+    max-width:850px;
 }
 
 .studio-case-content{
