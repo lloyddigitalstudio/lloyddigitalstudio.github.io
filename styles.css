@@ -164,13 +164,10 @@ body{
 }
 @media(max-width:700px){
   .hero-visual.after{min-height:420px}
-  .ring-1{width:320px;height:320px}
-  .ring-2{width:245px;height:245px}
-  .ring-3{width:170px;height:170px}
+  .ring-1{width:320px;height:320px}.ring-2{width:245px;height:245px}.ring-3{width:170px;height:170px}
   .hero-star-logo{width:180px;height:180px}
   .hero-name.after{top:72%}
 }
-
 @media(prefers-reduced-motion:reduce){
   .hero-star-logo{animation:none}
 }
@@ -596,6 +593,7 @@ body{
   font-size:14px;
 }
 
+
 /* HISTOIRE */
 
 .studio-story{
@@ -689,36 +687,10 @@ body{
     object-fit:cover;
 }
 
-/* ===== STUDIO — LEAD ENGINE FORMAT LARGE ===== */
-
-.studio-lead-card{
-    display:block;
-}
-
-.studio-lead-card .lead-engine-visual{
-    width:100%;
-    min-height:0;
-    overflow:hidden;
-    background:#05060d;
-    border-bottom:1px solid rgba(255,255,255,.08);
-}
-
-.studio-lead-card .lead-engine-visual img{
-    display:block;
-    width:100%;
-    height:auto;
-    min-height:0;
-    aspect-ratio:16 / 9;
-    object-fit:cover;
-    object-position:center;
-}
-
-.studio-lead-card .studio-case-content{
-    padding:38px 42px 42px;
-}
-
-.studio-lead-card .studio-case-content p{
-    max-width:850px;
+/* Cadrage spécifique Lead Engine */
+.lead-engine-visual img{
+    object-fit:contain;
+    object-position:center center;
 }
 
 .studio-case-content{
@@ -965,18 +937,21 @@ body{
 
 }
 
-/* ===== PHOTO HERO PAGE STUDIO ===== */
+
+/* ==================================================
+   STUDIO — CORRECTIFS ISOLÉS
+   ================================================== */
 
 .studio-hero-photo{
   position:relative;
   width:100%;
-  max-width:520px;
+  max-width:500px;
   aspect-ratio:1 / 1;
   justify-self:end;
   align-self:center;
   overflow:hidden;
   border:1px solid rgba(255,255,255,.10);
-  border-radius:32px;
+  border-radius:34px;
   background:#05060d;
   box-shadow:
     0 30px 90px rgba(0,0,0,.30),
@@ -993,6 +968,35 @@ body{
   object-fit:cover;
   object-position:center;
   filter:none;
+}
+
+.studio-lead-card{
+  display:block;
+}
+
+.studio-lead-card .lead-engine-visual{
+  min-height:0;
+  overflow:hidden;
+  background:#05060d;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.studio-lead-card .lead-engine-visual img{
+  display:block;
+  width:100%;
+  height:auto;
+  min-height:0;
+  aspect-ratio:16 / 9;
+  object-fit:cover;
+  object-position:center;
+}
+
+.studio-lead-card .studio-case-content{
+  padding:38px 42px 42px;
+}
+
+.studio-lead-card .studio-case-content p{
+  max-width:850px;
 }
 
 @media(max-width:900px){
@@ -1014,5 +1018,9 @@ body{
 
   .studio-hero-photo img{
     object-position:center 35%;
+  }
+
+  .studio-lead-card .studio-case-content{
+    padding:28px 24px 32px;
   }
 }
