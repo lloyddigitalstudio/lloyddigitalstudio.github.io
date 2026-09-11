@@ -1185,3 +1185,29 @@ body{
   }
 
 }
+/* ==================================================
+   LLOYD — SOUND ICON DESKTOP
+   ================================================== */
+
+@media(min-width:701px){
+
+  .nav-links .sound-toggle{
+    background:rgba(105,63,255,.08);
+    border:1px solid rgba(169,140,255,.30);
+    color:rgba(255,255,255,.70);
+  }
+
+  .nav-links .sound-toggle .sound-icon{
+    color:#a98cff !important;
+    font-size:13px;
+    line-height:1;
+  }
+
+  .nav-links .sound-toggle.is-playing .sound-icon{
+    color:#bca8ff !important;
+    text-shadow:
+      0 0 6px rgba(169,140,255,.9),
+      0 0 14px rgba(105,63,255,.55);
+  }
+
+}
