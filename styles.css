@@ -1061,3 +1061,81 @@ body{
   }
 
 }
+/* ==================================================
+   LLOYD — AMBIANCE SONORE
+   ================================================== */
+
+.sound-toggle{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+
+  padding:9px 13px;
+
+  border:1px solid rgba(161,140,255,.30);
+  border-radius:999px;
+
+  background:rgba(105,63,255,.06);
+  color:rgba(255,255,255,.62);
+
+  font:inherit;
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.12em;
+
+  cursor:pointer;
+
+  transition:
+    color .3s ease,
+    border-color .3s ease,
+    background .3s ease,
+    box-shadow .3s ease;
+}
+
+.sound-toggle:hover{
+  color:#c9bdff;
+  border-color:rgba(161,140,255,.60);
+  background:rgba(105,63,255,.12);
+}
+
+.sound-icon{
+  color:#a98cff;
+  font-size:13px;
+  line-height:1;
+}
+
+.sound-toggle.is-playing{
+  color:#c9bdff;
+  border-color:rgba(161,140,255,.52);
+  background:rgba(105,63,255,.10);
+}
+
+.sound-toggle.is-playing .sound-icon{
+  text-shadow:
+    0 0 7px rgba(161,140,255,.85),
+    0 0 16px rgba(105,63,255,.50);
+}
+
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+  .sound-toggle{
+    width:38px;
+    height:38px;
+    flex:0 0 38px;
+    padding:0;
+    border-radius:50%;
+  }
+
+  .sound-label{
+    display:none;
+  }
+
+  .sound-icon{
+    font-size:15px;
+  }
+
+}
