@@ -688,11 +688,14 @@ body{
 }
 
 /* Cadrage spécifique Lead Engine */
-.lead-engine-visual img{
-    object-fit:contain;
-    object-position:center center;
+.lead-engine-visual{
+    overflow:hidden;
 }
 
+.lead-engine-visual img{
+    object-fit:cover;
+    object-position:center center;
+}
 .studio-case-content{
   padding:48px;
 
