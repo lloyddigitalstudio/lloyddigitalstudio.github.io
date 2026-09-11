@@ -989,3 +989,48 @@ body{
   }
 
 }
+
+/* ===== PHOTO HERO PAGE STUDIO ===== */
+
+.studio-hero-photo{
+  position:relative;
+  width:100%;
+  min-height:390px;
+
+  overflow:hidden;
+
+  border:1px solid rgba(255,255,255,.10);
+  border-radius:32px;
+
+  background:#05060d;
+
+  box-shadow:
+    0 30px 90px rgba(0,0,0,.30),
+    0 0 70px rgba(105,63,255,.12);
+}
+
+.studio-hero-photo img{
+  display:block;
+
+  width:100%;
+  height:100%;
+
+  position:absolute;
+  inset:0;
+
+  object-fit:cover;
+  object-position:center;
+
+  max-width:none;
+  min-width:100%;
+
+  filter:none;
+}
+
+@media(max-width:700px){
+
+  .studio-hero-photo{
+    min-height:340px;
+  }
+
+}
