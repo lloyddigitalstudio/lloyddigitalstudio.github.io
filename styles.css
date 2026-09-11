@@ -1139,3 +1139,49 @@ body{
   }
 
 }
+/* ==================================================
+   LLOYD — SOUND BUTTON DESKTOP POLISH
+   ================================================== */
+
+@media(min-width:701px){
+
+  .sound-toggle{
+    height:34px;
+    padding:0 13px;
+
+    border:1px solid rgba(169,140,255,.25);
+    border-radius:999px;
+
+    background:rgba(105,63,255,.07);
+
+    color:rgba(255,255,255,.65);
+
+    font-size:9px;
+    font-weight:800;
+    letter-spacing:.10em;
+
+    box-shadow:none;
+  }
+
+  .sound-toggle .sound-icon{
+    color:#a98cff;
+    font-size:12px;
+  }
+
+  .sound-toggle.is-playing{
+    color:#d8d0ff;
+    border-color:rgba(169,140,255,.38);
+    background:rgba(105,63,255,.11);
+
+    box-shadow:
+      inset 0 0 18px rgba(105,63,255,.05),
+      0 0 18px rgba(105,63,255,.08);
+  }
+
+  .sound-toggle:hover{
+    color:#fff;
+    border-color:rgba(169,140,255,.55);
+    background:rgba(105,63,255,.16);
+  }
+
+}
