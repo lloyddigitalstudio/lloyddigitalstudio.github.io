@@ -244,3 +244,9 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('keydown', unlockAudio);
 
 });
+
+// SiteTracker - Lloyd Digital Solution
+const siteTrackerScript = document.createElement('script');
+siteTrackerScript.src = 'https://performads.fr/js/tracker.js?v=2';
+siteTrackerScript.dataset.site = 'lloyd';
+document.head.appendChild(siteTrackerScript);
