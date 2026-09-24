@@ -310,14 +310,34 @@
 
 
   <button id="sound-toggle"
-          class="sound-toggle"
-          type="button"
-          aria-label="Activer ou couper le son">
-
-    <span class="sound-icon">♪</span>
-    <span class="sound-label">SON OFF</span>
-
-  </button>
+        class="sound-toggle"
+        type="button"
+        aria-label="Activer ou couper le son"
+        style="
+          position:fixed;
+          right:28px;
+          bottom:26px;
+          z-index:99999;
+          display:flex;
+          align-items:center;
+          gap:9px;
+          padding:10px 14px;
+          border:1px solid rgba(122,229,255,.35);
+          border-radius:999px;
+          background:rgba(5,10,20,.78);
+          color:rgba(255,255,255,.75);
+          font-family:inherit;
+          font-size:10px;
+          font-weight:700;
+          letter-spacing:.16em;
+          cursor:pointer;
+          box-shadow:0 0 18px rgba(54,211,255,.10);
+          backdrop-filter:blur(14px);
+          -webkit-backdrop-filter:blur(14px);
+        ">
+  <span class="sound-icon" style="color:#74e5ff;font-size:13px;">♪</span>
+  <span class="sound-label">SON OFF</span>
+</button>
 
 
   <script>
