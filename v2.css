@@ -129,3 +129,86 @@
     padding: 9px 12px;
   }
 }
+
+/* =========================================================
+   ROYALTYKEEPER
+   ========================================================= */
+
+.project-royaltykeeper {
+  min-height: 82vh;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 77% 48%,
+      rgba(58, 126, 255, .14),
+      transparent 34%
+    ),
+    linear-gradient(
+      180deg,
+      #02050b,
+      #040713 56%,
+      #02050b
+    );
+}
+
+.showcase-royaltykeeper {
+  width: min(720px, 46vw);
+}
+
+.showcase-royaltykeeper:before {
+  background:
+    radial-gradient(
+      circle,
+      rgba(67, 213, 255, .17),
+      rgba(118, 84, 255, .11) 42%,
+      transparent 72%
+    );
+}
+
+.showcase-royaltykeeper .showcase-img {
+  border-radius: 22px;
+}
+
+
+/* TABLETTE */
+
+@media (max-width:1050px) {
+
+  .showcase-royaltykeeper {
+    width: 46vw;
+  }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width:767px) {
+
+  .project-royaltykeeper {
+    min-height: auto;
+    padding-top: 9vh;
+    padding-bottom: 10vh;
+  }
+
+  .showcase-royaltykeeper {
+    width: 100%;
+    margin-top: 38px;
+  }
+
+  .showcase-royaltykeeper .showcase-img {
+    border-radius: 14px;
+  }
+
+}
+
+
+/* PETITS MOBILES */
+
+@media (max-width:390px) {
+
+  .showcase-royaltykeeper {
+    margin-top: 30px;
+  }
+
+}
